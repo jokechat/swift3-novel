@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Kingfisher (3.1.1)
+  - NVActivityIndicatorView (3.0)
+  - SnapKit (3.0.1)
+  - StarWars (2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Kingfisher (~> 3.0)
+  - NVActivityIndicatorView
+  - SnapKit (~> 3.0)
+  - StarWars (~> 2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Kingfisher: 12b755ae697cc9f0fd3e550db8417fa1233e09ab
+  NVActivityIndicatorView: 81953b5e65093ba79edf4fe7268e002039ca5268
+  SnapKit: f818b8326d45b4e1c777d0ab27b5c0a3624bfdeb
+  StarWars: 3c68dc5e9f1b6ca6d407b1d4218fd8a65c2eacfa
+
+PODFILE CHECKSUM: 84816fdb57e776a8b3feeffa51b5725086f87bc9
+
+COCOAPODS: 1.0.1

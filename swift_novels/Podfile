@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+target 'swift_novels' do
+	pod 'Alamofire', '~> 4.0'
+	pod 'StarWars', '~> 2.0'
+	pod 'NVActivityIndicatorView'
+	pod 'SnapKit', '~> 3.0'
+	pod 'Kingfisher', '~> 3.0'
+end
