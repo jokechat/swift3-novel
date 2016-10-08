@@ -20,6 +20,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func show_booklist()
+    {
+        print("显示booklist")
+        
+        let util = TimeUtil()
+        util.getFormatStingTime()
+        
+        let bookListView = BookListViewController()
+        
+        self.present(bookListView, animated: true)
+        {
+            print("点击按钮")
+        }
+    }
 
 }
 

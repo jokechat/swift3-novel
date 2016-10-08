@@ -15,6 +15,9 @@
 		546BF7AE1D9F869A00542849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546BF7AC1D9F869A00542849 /* LaunchScreen.storyboard */; };
 		546BF7B91D9F869B00542849 /* swift_novelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546BF7B81D9F869B00542849 /* swift_novelsTests.swift */; };
 		546BF7C41D9F869B00542849 /* swift_novelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546BF7C31D9F869B00542849 /* swift_novelsUITests.swift */; };
+		54AACCD41DA4D10F00CF18A5 /* TimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AACCD11DA4D10F00CF18A5 /* TimeUtil.swift */; };
+		54AACCD71DA4D1BE00CF18A5 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AACCD51DA4D1BE00CF18A5 /* BookListViewController.swift */; };
+		54AACCD81DA4D1BE00CF18A5 /* BookListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AACCD61DA4D1BE00CF18A5 /* BookListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		546BF7BF1D9F869B00542849 /* swift_novelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_novelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		546BF7C31D9F869B00542849 /* swift_novelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_novelsUITests.swift; sourceTree = "<group>"; };
 		546BF7C51D9F869B00542849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AACCD11DA4D10F00CF18A5 /* TimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUtil.swift; sourceTree = "<group>"; };
+		54AACCD51DA4D1BE00CF18A5 /* BookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		54AACCD61DA4D1BE00CF18A5 /* BookListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookListViewController.xib; sourceTree = "<group>"; };
 		9CD36EC54291EDC9BE987809 /* Pods_swift_novels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_novels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44AB0D3EF1E604FC0DACF65 /* Pods-swift_novels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_novels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift_novels/Pods-swift_novels.debug.xcconfig"; sourceTree = "<group>"; };
 		AB9D50ADA26BF99B97D96C66 /* Pods-swift_novels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_novels.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift_novels/Pods-swift_novels.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +118,10 @@
 		546BF7A21D9F869A00542849 /* swift_novels */ = {
 			isa = PBXGroup;
 			children = (
+				54AACCCD1DA4D10F00CF18A5 /* Controller */,
+				54AACCCF1DA4D10F00CF18A5 /* Model */,
+				54AACCD01DA4D10F00CF18A5 /* Util */,
+				54AACCD21DA4D10F00CF18A5 /* View */,
 				546BF7A31D9F869A00542849 /* AppDelegate.swift */,
 				546BF7A51D9F869A00542849 /* ViewController.swift */,
 				546BF7A71D9F869A00542849 /* Main.storyboard */,
@@ -138,6 +148,37 @@
 				546BF7C51D9F869B00542849 /* Info.plist */,
 			);
 			path = swift_novelsUITests;
+			sourceTree = "<group>";
+		};
+		54AACCCD1DA4D10F00CF18A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54AACCD51DA4D1BE00CF18A5 /* BookListViewController.swift */,
+				54AACCD61DA4D1BE00CF18A5 /* BookListViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54AACCCF1DA4D10F00CF18A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54AACCD01DA4D10F00CF18A5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				54AACCD11DA4D10F00CF18A5 /* TimeUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		54AACCD21DA4D10F00CF18A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A06542899E19419E8AFCC1D7 /* Pods */ = {
@@ -215,7 +256,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = jokechat;
 				TargetAttributes = {
 					546BF79F1D9F869A00542849 = {
@@ -263,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				546BF7AE1D9F869A00542849 /* LaunchScreen.storyboard in Resources */,
+				54AACCD81DA4D1BE00CF18A5 /* BookListViewController.xib in Resources */,
 				546BF7AB1D9F869A00542849 /* Assets.xcassets in Resources */,
 				546BF7A91D9F869A00542849 /* Main.storyboard in Resources */,
 			);
@@ -338,7 +380,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				546BF7A61D9F869A00542849 /* ViewController.swift in Sources */,
+				54AACCD71DA4D1BE00CF18A5 /* BookListViewController.swift in Sources */,
 				546BF7A41D9F869A00542849 /* AppDelegate.swift in Sources */,
+				54AACCD41DA4D10F00CF18A5 /* TimeUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +484,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -480,8 +525,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -584,7 +631,7 @@
 				546BF7C71D9F869B00542849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		546BF7C81D9F869B00542849 /* Build configuration list for PBXNativeTarget "swift_novels" */ = {
 			isa = XCConfigurationList;
@@ -593,7 +640,7 @@
 				546BF7CA1D9F869B00542849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		546BF7CB1D9F869B00542849 /* Build configuration list for PBXNativeTarget "swift_novelsTests" */ = {
 			isa = XCConfigurationList;
@@ -602,7 +649,7 @@
 				546BF7CD1D9F869B00542849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		546BF7CE1D9F869B00542849 /* Build configuration list for PBXNativeTarget "swift_novelsUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,7 +658,7 @@
 				546BF7D01D9F869B00542849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
