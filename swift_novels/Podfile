@@ -7,4 +7,5 @@ target 'swift_novels' do
 	pod 'NVActivityIndicatorView'
 	pod 'SnapKit', '~> 3.0'
 	pod 'Kingfisher', '~> 3.0'
+	pod 'Log'
 end

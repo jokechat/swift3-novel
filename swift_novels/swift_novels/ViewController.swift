@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SnapKit
+import Log
 
 class ViewController: UIViewController {
 
@@ -23,16 +25,38 @@ class ViewController: UIViewController {
     @IBAction func show_booklist()
     {
         print("显示booklist")
+//        
+//        let util = TimeUtil()
+//        util.getFormatStingTime()
         
-        let util = TimeUtil()
-        util.getFormatStingTime()
+        let Log = Logger()
         
-        let bookListView = BookListViewController()
+        Log.trace("Called!!!")
+        Log.debug("Who is self:", self)
+
         
-        self.present(bookListView, animated: true)
-        {
-            print("点击按钮")
-        }
+//        let bookListView = BookListViewController()
+//        
+//         self.show(bookListView, sender: nil)
+        
+//        self.present(bookListView, animated: true)
+//        {
+//
+//            print("点击按钮")
+//        }
+        
+        
+        let listViewController = self.storyboard?.instantiateViewController(withIdentifier: "BookListViewController")
+        
+//        self.present(listViewController!, animated: true) {
+////            code
+//        }
+        
+        self.show(listViewController!, sender: nil)
+
+        
+    
+        
     }
 
 }

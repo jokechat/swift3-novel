@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Log.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NVActivityIndicatorView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,22 +52,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>306E029835D89B610C269D387665D7A1</key>
+		<key>2D48B596F0E3A0622FD6942C18013F8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>35589256A37F86EDDC179C357910808A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>49A780A3D4120921CD57EBAD53243D28</key>
+		<key>2E4D6DFBD8315006F49CE8CE3E69AB1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E436611AECF3FDE35F90E26B3C3944C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7C99010DEE22AAAB76BCF07F093651A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
