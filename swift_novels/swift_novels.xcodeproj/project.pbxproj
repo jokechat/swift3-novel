@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		20349AC95D197CA8E6A0484D /* Pods_swift_novels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD36EC54291EDC9BE987809 /* Pods_swift_novels.framework */; };
+		540CD41E1DAF8E47007E6FA3 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CD41D1DAF8E47007E6FA3 /* BookListViewController.swift */; };
 		546BF7A41D9F869A00542849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546BF7A31D9F869A00542849 /* AppDelegate.swift */; };
 		546BF7A61D9F869A00542849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546BF7A51D9F869A00542849 /* ViewController.swift */; };
 		546BF7A91D9F869A00542849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546BF7A71D9F869A00542849 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		540CD41D1DAF8E47007E6FA3 /* BookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
 		546BF7A01D9F869A00542849 /* swift_novels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_novels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		546BF7A31D9F869A00542849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		546BF7A51D9F869A00542849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		54AACCCD1DA4D10F00CF18A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				540CD41D1DAF8E47007E6FA3 /* BookListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				546BF7A61D9F869A00542849 /* ViewController.swift in Sources */,
+				540CD41E1DAF8E47007E6FA3 /* BookListViewController.swift in Sources */,
 				546BF7A41D9F869A00542849 /* AppDelegate.swift in Sources */,
 				54AACCD41DA4D10F00CF18A5 /* TimeUtil.swift in Sources */,
 			);
